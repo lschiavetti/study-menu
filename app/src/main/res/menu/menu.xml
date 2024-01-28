@@ -1,17 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <item
         android:id="@+id/help"
         android:icon="@mipmap/ic_launcher"
-        android:title="Help Title" />
+        android:title="@string/menu_item_help_title"
+        app:showAsAction="ifRoom" />
     <item
         android:id="@+id/search"
         android:icon="@drawable/ic_search"
-        android:title="Search Title" />
-    <item
-        android:id="@+id/add"
-        android:icon="@drawable/ic_add"
-        android:title="Add Title" />
-
+        android:title="@string/menu_item_search_title"
+        app:showAsAction="ifRoom" />
 </menu>
