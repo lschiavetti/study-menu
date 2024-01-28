@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/help"
+        android:icon="@mipmap/ic_launcher"
+        android:title="Help Title" />
+    <item
+        android:id="@+id/search"
+        android:icon="@drawable/ic_search"
+        android:title="Search Title" />
+    <item
+        android:id="@+id/add"
+        android:icon="@drawable/ic_add"
+        android:title="Add Title" />
+
+</menu>
