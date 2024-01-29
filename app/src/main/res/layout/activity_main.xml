@@ -43,4 +43,30 @@
         app:layout_constraintTop_toBottomOf="@id/createOptionsMenuTextView"
         android:text="Dynamic Options Menu Example" />
 
+    <TextView
+        android:id="@+id/updatableOptionsMenuTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:padding="8dp"
+        android:foreground="?selectableItemBackgroundBorderless"
+        android:background="@drawable/shape_circle"
+        android:layout_marginTop="24dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/dynamicOptionsMenuTextView"
+        android:text="Updatable Options Menu Example" />
+
+    <TextView
+        android:id="@+id/updatableOptionsMenu2TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:padding="8dp"
+        android:foreground="?selectableItemBackgroundBorderless"
+        android:background="@drawable/shape_circle"
+        android:layout_marginTop="24dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/updatableOptionsMenuTextView"
+        android:text="Updatable Options Menu Example 2" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

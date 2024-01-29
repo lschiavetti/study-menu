@@ -13,6 +13,12 @@
         android:theme="@style/Theme.StudyMenu"
         tools:targetApi="31">
         <activity
+            android:name=".UpdatableOptionsMenuActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".UpdatableOptionsMenuActivity"
+            android:exported="false" />
+        <activity
             android:name=".DynamicOptionsMenuActivity"
             android:exported="false" />
         <activity

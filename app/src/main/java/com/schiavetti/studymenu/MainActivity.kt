@@ -25,5 +25,15 @@ class MainActivity : AppCompatActivity() {
                 Intent(this, DynamicOptionsMenuActivity::class.java)
             )
         }
+        findViewById<TextView>(R.id.updatableOptionsMenuTextView).setOnClickListener {
+            startActivity(
+                Intent(this, UpdatableOptionsMenuActivity::class.java)
+            )
+        }
+        findViewById<TextView>(R.id.updatableOptionsMenu2TextView).setOnClickListener {
+            startActivity(
+                Intent(this, UpdatableOptionsMenuActivity2::class.java)
+            )
+        }
     }
 }

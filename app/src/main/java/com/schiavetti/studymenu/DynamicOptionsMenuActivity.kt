@@ -13,7 +13,7 @@ import android.widget.Toast
  *   items on runtime.
  *   In order to do that, one should call the add() method inside
  *   onCreateOptionsMenu. Note that there are several implementations
- *   possible for the add method. The one shown below is the more complete,
+ *   possible for the add method. The one shown below is the more complete one,
  *   in which an ID, order and group can be provided.
  *
  */

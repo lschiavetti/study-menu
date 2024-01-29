@@ -10,4 +10,13 @@
 
     <string name="activity_dynamic_options_menu_item_100">Dynamic Item #1</string>
     <string name="activity_dynamic_options_menu_item_200">Dynamic Item #1</string>
+
+    <string-array name="activity_updatable_options_menu_quantity">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+
 </resources>
