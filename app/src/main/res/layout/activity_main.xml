@@ -2,71 +2,84 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_margin="16dp"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:layout_margin="16dp"
     tools:context=".MainActivity">
 
     <TextView
         android:id="@+id/activityMainTitleTextView"
         android:layout_width="wrap_content"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
+        android:layout_height="wrap_content"
         android:text="@string/acitivty_main_title"
         android:textSize="20sp"
         android:textStyle="bold"
-        android:layout_height="wrap_content" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/createOptionsMenuTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="18sp"
-        android:padding="8dp"
-        android:foreground="?selectableItemBackgroundBorderless"
-        android:background="@drawable/shape_circle"
         android:layout_marginTop="24dp"
+        android:background="@drawable/shape_circle"
+        android:foreground="?selectableItemBackgroundBorderless"
+        android:padding="8dp"
+        android:text="Create Options Menu Example"
+        android:textSize="18sp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/activityMainTitleTextView"
-        android:text="Create Options Menu Example" />
+        app:layout_constraintTop_toBottomOf="@id/activityMainTitleTextView" />
 
     <TextView
         android:id="@+id/dynamicOptionsMenuTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="18sp"
-        android:padding="8dp"
-        android:foreground="?selectableItemBackgroundBorderless"
-        android:background="@drawable/shape_circle"
         android:layout_marginTop="24dp"
+        android:background="@drawable/shape_circle"
+        android:foreground="?selectableItemBackgroundBorderless"
+        android:padding="8dp"
+        android:text="Dynamic Options Menu Example"
+        android:textSize="18sp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/createOptionsMenuTextView"
-        android:text="Dynamic Options Menu Example" />
+        app:layout_constraintTop_toBottomOf="@id/createOptionsMenuTextView" />
 
     <TextView
         android:id="@+id/updatableOptionsMenuTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="18sp"
-        android:padding="8dp"
-        android:foreground="?selectableItemBackgroundBorderless"
-        android:background="@drawable/shape_circle"
         android:layout_marginTop="24dp"
+        android:background="@drawable/shape_circle"
+        android:foreground="?selectableItemBackgroundBorderless"
+        android:padding="8dp"
+        android:text="Updatable Options Menu Example"
+        android:textSize="18sp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/dynamicOptionsMenuTextView"
-        android:text="Updatable Options Menu Example" />
+        app:layout_constraintTop_toBottomOf="@id/dynamicOptionsMenuTextView" />
 
     <TextView
         android:id="@+id/updatableOptionsMenu2TextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="18sp"
-        android:padding="8dp"
-        android:foreground="?selectableItemBackgroundBorderless"
-        android:background="@drawable/shape_circle"
         android:layout_marginTop="24dp"
+        android:background="@drawable/shape_circle"
+        android:foreground="?selectableItemBackgroundBorderless"
+        android:padding="8dp"
+        android:text="Updatable Options Menu Example 2"
+        android:textSize="18sp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/updatableOptionsMenuTextView"
-        android:text="Updatable Options Menu Example 2" />
+        app:layout_constraintTop_toBottomOf="@id/updatableOptionsMenuTextView" />
+
+    <TextView
+        android:id="@+id/floatingContextualMenuActivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/shape_circle"
+        android:foreground="?selectableItemBackgroundBorderless"
+        android:padding="8dp"
+        android:text="Floating Contextual Menu Example"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/updatableOptionsMenu2TextView" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

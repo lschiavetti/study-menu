@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.Menu
 import android.widget.TextView
+import com.schiavetti.studymenu.contextual.FloatingContextualMenuActivity
 
 class MainActivity : AppCompatActivity() {
 
@@ -33,6 +34,11 @@ class MainActivity : AppCompatActivity() {
         findViewById<TextView>(R.id.updatableOptionsMenu2TextView).setOnClickListener {
             startActivity(
                 Intent(this, UpdatableOptionsMenuActivity2::class.java)
+            )
+        }
+        findViewById<TextView>(R.id.floatingContextualMenuActivity).setOnClickListener {
+            startActivity(
+                Intent(this, FloatingContextualMenuActivity::class.java)
             )
         }
     }
